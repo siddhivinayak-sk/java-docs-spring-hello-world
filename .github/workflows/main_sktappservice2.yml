@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'sktappservice2'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DB446FE61C4840DAA325797951CA36A0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2F7512676A61476D85DFBF55C6E418FC }}
           package: '*.jar'
